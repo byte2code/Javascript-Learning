@@ -7,8 +7,77 @@
     <title>Document</title>
 </head>
 <body>
+
+    <style>
+        main{
+            display: grid;
+            grid-template-columns: 1fr 0.30fr;
+        }
+        
+        aside{
+            float: right;
+        }
+        td,
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px;
+        }
+    </style>
+
+    <main>
+        <section>
+            <div class="learned">
+                <h2>Day 1</h2>
+                <ul class="day day__1">
+                    <li>Callback</li>
+                    <li>Promises</li>
+                    <li>Async Await</li>
+                </ul>
+
+                <div class="learned_detailed">
+                    <table>
+                        <tr>
+                            <th scope="row">Simple Example</th>
+                            <td>Refer to day1/ callback.js promises.js async_await.js</td>
+                            <!-- <script src="./day1/simple_example/callback.js"></script> -->
+                            <!-- <script src="./day1/simple_example/promises.js"></script> -->
+                            <!-- <script src="./day1/simple_example/async_await.js"></script> -->
+                        </tr>
+                        <tr>
+                            <th scope="row">Detailed Example</th>
+                            <td>Refer to day1/ iceCream/main.js</td>
+                            <!-- Ice Cream Async -->
+                            <!-- <script src="./day1/ice_cream_async/main.js"></script> -->
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </section>
+    
+        <aside>
+            <div class="toLearn">
+                <h2>To Learn Next</h2>
+                <div class="data">
+                    <ul class="data__1">
+                        <li>filter()</li>
+                        <li>map()</li>
+                        <li>reduce()</li>
+                        <li>sort()</li>
+                        <span>
+                            <a href="https://www.youtube.com/watch?v=rRgD1yVwIvE&t=1s">https://www.youtube.com/watch?v=rRgD1yVwIvE&t=1s</a>
+                        </span>
+                    </ul>
+                </div>
+            </div>
+        </aside>        
+    </main>
     
 
-    <script src="./js/callback.js"></script>
+
+    <!-- some examples -->
+    <!-- <script src="./misc_eamples/example.js"></script> -->
+
+     
 </body>
 </html>
