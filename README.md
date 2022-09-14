@@ -1,2 +1,7 @@
-# Async-JS
-Async JS - Callbacks, Promises, Async Await
+# Javascript Learning Resources
+
+
+Day         |   Topics Covered
+------------|-----------------------------------
+Day 1       |   Callbacks, Promises, Async Await
+Day 2       |   filter(), map(), sort(), forEach()
